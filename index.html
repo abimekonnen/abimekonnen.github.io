@@ -1,41 +1,293 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>YARED MEKONNEN</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-      
-              </head>
-    <body>
-     
-  
-        <div class="header">
-      
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>Yared Mekonnen</title>
+
+    <!-- Styles -->
+    <link href="assets/css/page.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+     <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- Favicons -->
+    <link rel="icon" href="assets/img/yaredu.jpg">
+  </head>
+
+  <body  style="overflow-x: hidden;" >
+ 
+
+    <!-- Navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light navbar-stick-dark" data-navbar="sticky">
+      <div class="container">
+        <div class="navbar-left">
         </div>
-        
-        <ul>
-            <li><a href="contact.html">Contact Me</a>  </li>
-                      
-            <li><a href="#">Gallery</a>
-                <ul>
-            <li><a href="picture.html">Photos</a></li>          
-            <li><a href="videos.html">Videos</a></li>                   
-            </ul>
-            </li>
-           
-               
-               <li><a href="jared.html">About me</a>
-             
-                </li>
-            
-            </ul>
-  <P class="home">well come to mypage</P>
+        <section class="navbar-mobile">
+          <span class="navbar-divider d-mobile-none"></span>
+
+          <ul class="nav nav-navbar">
+          </ul>
+        </section>
+      </div>
+    </nav> -->
+    <!-- /.navbar -->
+
+    <!-- Header -->
+    <header class="header text-center text-white" style="background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+
+            <h1>Well Come Yared's Website</h1>
+            <h3 class="lead-2 opacity-90 mt-6">Read and get updated </h3>
+
+          </div>
+        </div>
+
+      </div>
+    </header><!-- /.header -->
+
+
+    <!-- Main Content -->
+      <div class="section bg-gray" style=" background-color: rgba(230, 224, 224, 0.979);">
+              <div class="row gap-y">
+                <div class="col-md-1"></div>
+                <div class="col-md-6">
+                  <div class="card border hover-shadow-6 mb-6 d-block">
+                    <div class="row">
+                      <div  class="col-md-6">
+                        <a href="assets/img/yaredu.jpg"><img class="card-img-top " src="assets/img/yaredu.jpg" style="height: 70vmin;" ></a>
+                      </div> 
+                      <div class="col-md-6 mt-2 mb-2" class="p-6 text-center">
+                        <p class="mr-2">
+                          I was graduated from University of Gondar on January 14, 2013 E.C within B.Sc.  
+                          Degree in Information system.  I have a comprehensive understanding of the full lifecycle
+                          for software development projects. I also have experience developing web application
+                          and mobile applications and learning and applying new technologies as appropriate. 
+                        </p>
+                        <h5 class="mb-0"><a class="text-dark" href="#">
+                          Your faith full Yared Mekonnen desa
+                        </a>
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="sidebar px-4 py-md-0">
+                    <h3 class="sidebar-title">Personal Data</h3>
+                    <div class="row ">
+                      <div class="col-5"><p>Name: </p></div>
+                      <div class="col-7"><p>Yared Mekonnen desa</p></div>
+                      <div class="col-5"><p>Sex: </p></div>
+                      <div class="col-7"><p>Male</p></div>
+                      <div class="col-5"><p> Date of Birth: </p></div>
+                      <div class="col-7"><p> January 30,1990 E.C </p></div>
+                      <div class="col-5"><p>Place of birth:</p></div>
+                      <div class="col-7"><p>Adama </p></div>
+                      <div class="col-5"><p> Marital Status:</p></div>
+                      <div class="col-7"><p> Single</p></div>
+                      <div class="col-5"><p>Nationality:</p></div>
+                      <div class="col-7"><p>Ethiopian</p></div>
+                      <div class="col-5"><p> Address: </p></div>
+                      <div class="col-7"><p> Adiss ababa</p></div>
+                      <div class="col-5"><p> Email:</p></div>
+                      <div class="col-7"><p>mekonnenabi@gmail.com</p></div>
+                      <div class="col-5"> <p> Phone number:</p></div>
+                      <div class="col-7">  <p>09 20 00 19 78 (Mobile) </p></div>
+                    </div>
+                    <hr>
+                  </div>
+                </div>
+                <div class="col-md-1"></div>
+              </div>
+
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-6">
+                <div class="card border hover-shadow-6 mb-6 d-block">
+                  <a href="assets/img/yaredTemp.jpg"><img class="card-img-top" src="assets/img/yaredTemp.jpg" alt="Card image cap"></a>
+                  <div class="p-6 text-center">
+                    <h5 class="mb-0">Teporary Degree Certificate</a></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="card  col-md-4  bg-white p-6 rounded " id="sendMessage" class="needs-validation" novalidate>
+                <form method="post"  name="sendMess" id="sendMess" >
+                    <div class="form-group">
+                      <input class="form-control form-control-lg" type="text" id="name" name="name" placeholder="Your Name">
+                      <span style="color: red; visibility: hidden" id="spName">enter name</span>
+                    </div>           
+                    <div class="form-group">
+                      <input class="form-control form-control-lg" type="email" id="email" name="email" placeholder="Your Email Address">
+                      <span style="color: red; visibility: hidden" id="spEmail">enter email</span>
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control form-control-lg" rows="4" id="message" placeholder="Your Message" name="message"></textarea>
+                      <span class="ml-30" style="color: red; visibility: hidden;" id="spMessage">enter message</span>
+                    </div>
+                    <input class="btn btn-lg btn-block btn-primary " type="button" id="btnSendMessage" onclick = "sendEmail()" value="Send Message"></input>
+         
+                </form>
+              </div>
+              <div class="col-md-1"></div>
+            </div>
       
-       
-    </body>
+          <div data-provide="shuffle"  class="mt-2">
+            <nav class="nav nav-center nav-pills mb-7" data-shuffle="filter">
+               <a class="nav-link active btn-primary btn-lg ml-1 mt-2" href="#" data-shuffle="button">All</a>
+              <a class="nav-link btn btn-primary btn-lg ml-1 mt-2"  data-shuffle="button" data-group="education">Education</a>
+              <a class="nav-link btn btn-primary btn-lg ml-1 mt-2"  data-shuffle="button" data-group="skills">Skills</a>
+              <a class="nav-link btn btn-primary btn-lg ml-1 mt-2"  data-shuffle="button" data-group="projects">Projects</a>
+              <a class="nav-link btn btn-primary btn-lg ml-1 mt-2"  data-shuffle="button" data-group="laguage">Laguage</a>
+            </nav>
+            <div class="row gap-y gap-2" id="shuffleContent" data-shuffle="list" >
+              <div class="col-md-12 col-lg-12 " data-shuffle="item" data-groups="education">
+                <div class="card border hover-shadow-6 mb-6 d-block">
+                  <div class="p-6 text-center">
+                    <h5 class="mb-0">Education Background</a></h5>
+                  </div>
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>Year ( E.C )</th>
+                        <th>Awarded</th>
+                        <th>Place</th>
+                        <th>Institution /School</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">2009-2013</th>
+                        <td>2009-2013	B.Sc.  degree in information systems</td>
+                        <td>Gondar</td>
+                        <td>University of Gondar</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2007-2008</th>
+                        <td>Ethiopian higher education  examination certificate </td>
+                        <td>Adama</td>
+                        <td>Hawass Preparatory School</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2005-2006</th>
+                        <td>Ethiopian Secondary leaving  certificate </td>
+                        <td>Adama</td>
+                        <td>Tiwab adama secondary School</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2003</th>
+                        <td>Primary education examination certificate </td>
+                        <td>Adama</td>
+                        <td>Hotetibeb Primary School</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-12 justify-content-center " data-shuffle="item" data-groups="skills">
+                <div class="card border hover-shadow-6 mb-6 d-block">
+                  <div class="p-6 text-center">
+                    <h5 class="mb-0">Technical Skills</a></h5>
+                  </div>
+                  <ul >
+                    <li >
+                      Programming language: c++, visual basic, OOP data structure, java, python, JavaScript ,PHP
+                    </li>
+                    <li>
+                      	Web application development technology, Bootstrap, Angular, React, Laravel, NodeJs
+                    </li>
+                    <li>Mobile application development Flutter</li>
+                    <li>Networking and system administration</li>
+                    <li>Database: SQL server,My sql</li>
+                    <li> Computer hardware and software maintenance</li>
+                    <li>MS Office excel and word, power point, internet.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-12" data-shuffle="item" data-groups="projects">
+                <div class="card border hover-shadow-6 mb-6 d-block">
+                  <div class="p-6 text-center">
+                    <h5 class="mb-0">Projects</a></h5>
+                  </div>
+                  <ul>
+                    <li>Comtent Managment System</li>
+                    <li>Employee Attendance Managment</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-12  " data-shuffle="item" data-groups="laguage">
+                <div class="card border hover-shadow-6 mb-6 d-block">
+                  <div class="p-6 text-center">
+                    <h5 class="mb-0">Language Skills</a></h5>
+                  </div>
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>Proficiency</th>
+                        <th> Writing </th>
+                        <th>Reading </th>
+                        <th>Speaking</th>
+                        <th>Listening</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Amharic</th>
+                        <td>Excellent</td>
+                        <td>Excellent</td>
+                        <td>Excellent</td>
+                        <td>Excellent</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">English</th>
+                        <td>Excellent</td>
+                        <td>Excellent </td>
+                        <td>V.good</td>
+                        <td>Excellent </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Afan oromo</th>
+                        <td>Excellent </td>
+                        <td>Excellent </td>
+                        <td> Good</td>
+                        <td> Good</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                 </div> 
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+          <div class="row gap-y align-items-center">
+         
+            <div class="col-md-6 col-sm-12 text-center">
+                <a class="nav-link" href="page/contact-1.html">
+                 <h3>Contact me</h3>
+                </a>
+            </div> 
+            <div class="col-md-6  col-sm-12 text-center order-lg-last">
+                <a class="social-facebook" href="https://www.facebook.com/yared.mekonen.376">
+                  <img src="assets/img/facebook_48px.png">
+                </a>
+                <a class="social-twitter" href="https://twitter.com/thethemeio">
+                  <img src="assets/img/telegram_app_48px.png">
+                </a>
+            </div>
+          </div>
+    </footer>
+    
+    <!-- /.footer -->
+    <!-- Scripts -->
+    <script src="assets/js/page.min.js"></script>
+    <script src="assets/js/script.js"></script>
    
-
-</div>
-
-
-
+  </body>
 </html>
